@@ -1,0 +1,13 @@
+27403 23:54:00 execve("/bin/bash", ["bash", "a_1_exp.sh"], [/* 15 vars */]) = 0
+27403 23:54:00 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f6d68d659d0) = 27404
+27404 23:54:00 execve("/bin/bash", ["bash", "b_exp.sh"], [/* 18 vars */]) = 0
+27404 23:54:00 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f6977b1c9d0) = 27405
+27405 23:54:00 execve("/bin/bash", ["bash", "d_exp.sh"], [/* 18 vars */]) = 0
+27405 23:54:00 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f65c593d9d0) = 27406
+27406 23:54:00 execve("/bin/sleep", ["sleep", "2"], [/* 18 vars */]) = 0
+27405 23:54:02 --- SIGCHLD (Child exited) @ 0 (0) ---
+27404 23:54:02 --- SIGCHLD (Child exited) @ 0 (0) ---
+27404 23:54:02 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f6977b1c9d0) = 27407
+27407 23:54:02 execve("/bin/sleep", ["sleep", "2"], [/* 18 vars */]) = 0
+27404 23:54:04 --- SIGCHLD (Child exited) @ 0 (0) ---
+27403 23:54:04 --- SIGCHLD (Child exited) @ 0 (0) ---

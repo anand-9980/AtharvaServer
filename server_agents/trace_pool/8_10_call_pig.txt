@@ -1,0 +1,619 @@
+2679  00:13:51 execve("/bin/bash", ["bash", "10_call_pig.sh"], [/* 15 vars */]) = 0
+2679  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f4f971ee9d0) = 2680
+2680  00:13:51 execve("/usr/bin/pig", ["pig", "-m", "hadoop.properties", "-param", "DIRNAME=pig_op_test", "TestPig.pig"], [/* 18 vars */]) = 0
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2683
+2683  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2684
+2684  00:13:51 execve("/bin/ls", ["ls", "-rd", "\\"], [/* 18 vars */]) = 0
+2684  00:13:51 exit_group(2)            = ?
+2683  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2683  00:13:51 exit_group(2)            = ?
+2680  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2685
+2685  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2686
+2686  00:13:51 execve("/bin/ls", ["ls", "-rd", "/usr/lib/j2sdk1.6-sun"], [/* 18 vars */]) = 0
+2686  00:13:51 exit_group(2)            = ?
+2685  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2685  00:13:51 exit_group(2)            = ?
+2680  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2687
+2687  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2688
+2688  00:13:51 execve("/bin/ls", ["ls", "-rd", "\\"], [/* 18 vars */]) = 0
+2688  00:13:51 exit_group(2)            = ?
+2687  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2687  00:13:51 exit_group(2)            = ?
+2680  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2689
+2689  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2690
+2690  00:13:51 execve("/bin/ls", ["ls", "-rd", "/usr/lib/jvm/java-6-sun"], [/* 18 vars */]) = 0
+2690  00:13:51 exit_group(2)            = ?
+2689  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2689  00:13:51 exit_group(2)            = ?
+2680  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2691
+2691  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2692
+2692  00:13:51 execve("/bin/ls", ["ls", "-rd", "\\"], [/* 18 vars */]) = 0
+2692  00:13:51 exit_group(2)            = ?
+2691  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2691  00:13:51 exit_group(2)            = ?
+2680  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2694
+2694  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2695
+2695  00:13:51 execve("/bin/ls", ["ls", "-rd", "/usr/lib/jvm/java-1.6.0-sun-1.6.0.*"], [/* 18 vars */]) = 0
+2695  00:13:51 exit_group(2)            = ?
+2694  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2694  00:13:51 exit_group(2)            = ?
+2680  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2696
+2696  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2697
+2697  00:13:51 execve("/bin/ls", ["ls", "-rd", "\\"], [/* 18 vars */]) = 0
+2697  00:13:51 exit_group(2)            = ?
+2696  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2696  00:13:51 exit_group(2)            = ?
+2680  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2698
+2698  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2699
+2699  00:13:51 execve("/bin/ls", ["ls", "-rd", "/usr/lib/jvm/java-1.6.0-sun-1.6.0.*/jre/"], [/* 18 vars */]) = 0
+2699  00:13:51 exit_group(2)            = ?
+2698  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2698  00:13:51 exit_group(2)            = ?
+2680  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2700
+2700  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2701
+2701  00:13:51 execve("/bin/ls", ["ls", "-rd", "\\"], [/* 18 vars */]) = 0
+2701  00:13:51 exit_group(2)            = ?
+2700  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2700  00:13:51 exit_group(2)            = ?
+2680  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2702
+2702  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2703
+2703  00:13:51 execve("/bin/ls", ["ls", "-rd", "/usr/lib/jvm/j2sdk1.6-oracle"], [/* 18 vars */]) = 0
+2703  00:13:51 exit_group(2)            = ?
+2702  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2702  00:13:51 exit_group(2)            = ?
+2680  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2704
+2704  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2705
+2705  00:13:51 execve("/bin/ls", ["ls", "-rd", "\\"], [/* 18 vars */]) = 0
+2705  00:13:51 exit_group(2)            = ?
+2704  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2704  00:13:51 exit_group(2)            = ?
+2680  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2706
+2706  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2707
+2707  00:13:51 execve("/bin/ls", ["ls", "-rd", "/usr/lib/jvm/j2sdk1.6-oracle/jre"], [/* 18 vars */]) = 0
+2707  00:13:51 exit_group(2)            = ?
+2706  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2706  00:13:51 exit_group(2)            = ?
+2680  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2708
+2708  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2709
+2709  00:13:51 execve("/bin/ls", ["ls", "-rd", "\\"], [/* 18 vars */]) = 0
+2709  00:13:51 exit_group(2)            = ?
+2708  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2708  00:13:51 exit_group(2)            = ?
+2680  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2710
+2710  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2711
+2711  00:13:51 execve("/bin/ls", ["ls", "-rd", "/usr/java/jdk1.6*"], [/* 18 vars */]) = 0
+2711  00:13:51 exit_group(2)            = ?
+2710  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2710  00:13:51 exit_group(2)            = ?
+2680  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2712
+2712  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2713
+2713  00:13:51 execve("/bin/ls", ["ls", "-rd", "\\"], [/* 18 vars */]) = 0
+2713  00:13:51 exit_group(2)            = ?
+2712  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2712  00:13:51 exit_group(2)            = ?
+2680  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2714
+2714  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2715
+2715  00:13:51 execve("/bin/ls", ["ls", "-rd", "/usr/java/jre1.6*"], [/* 18 vars */]) = 0
+2715  00:13:51 exit_group(2)            = ?
+2714  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2714  00:13:51 exit_group(2)            = ?
+2680  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2716
+2716  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2717
+2717  00:13:51 execve("/bin/ls", ["ls", "-rd", "\\"], [/* 18 vars */]) = 0
+2717  00:13:51 exit_group(2)            = ?
+2716  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2716  00:13:51 exit_group(2)            = ?
+2680  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2718
+2718  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2719
+2719  00:13:51 execve("/bin/ls", ["ls", "-rd", "/usr/java/jdk1.7*"], [/* 18 vars */]) = 0
+2719  00:13:51 exit_group(2)            = ?
+2718  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2718  00:13:51 exit_group(2)            = ?
+2680  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2720
+2720  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2721
+2721  00:13:51 execve("/bin/ls", ["ls", "-rd", "\\"], [/* 18 vars */]) = 0
+2721  00:13:51 exit_group(2)            = ?
+2720  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2720  00:13:51 exit_group(2)            = ?
+2680  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2722
+2722  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2723
+2723  00:13:51 execve("/bin/ls", ["ls", "-rd", "/usr/java/jre1.7*"], [/* 18 vars */]) = 0
+2723  00:13:51 exit_group(2)            = ?
+2722  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2722  00:13:51 exit_group(2)            = ?
+2680  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2724
+2724  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2726
+2726  00:13:51 execve("/bin/ls", ["ls", "-rd", "\\"], [/* 18 vars */]) = 0
+2726  00:13:51 exit_group(2)            = ?
+2724  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2724  00:13:51 exit_group(2)            = ?
+2680  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2727
+2727  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2728
+2728  00:13:51 execve("/bin/ls", ["ls", "-rd", "/usr/lib/jvm/j2sdk1.7-oracle"], [/* 18 vars */]) = 0
+2728  00:13:51 exit_group(2)            = ?
+2727  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2727  00:13:51 exit_group(2)            = ?
+2680  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2729
+2729  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2730
+2730  00:13:51 execve("/bin/ls", ["ls", "-rd", "\\"], [/* 18 vars */]) = 0
+2730  00:13:51 exit_group(2)            = ?
+2729  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2729  00:13:51 exit_group(2)            = ?
+2680  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2731
+2731  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2732
+2732  00:13:51 execve("/bin/ls", ["ls", "-rd", "/usr/lib/jvm/j2sdk1.7-oracle/jre"], [/* 18 vars */]) = 0
+2732  00:13:51 exit_group(2)            = ?
+2731  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2731  00:13:51 exit_group(2)            = ?
+2680  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2733
+2733  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2734
+2734  00:13:51 execve("/bin/ls", ["ls", "-rd", "\\"], [/* 18 vars */]) = 0
+2734  00:13:51 exit_group(2)            = ?
+2733  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2733  00:13:51 exit_group(2)            = ?
+2680  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2737
+2737  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2738
+2738  00:13:51 execve("/bin/ls", ["ls", "-rd", "/usr/lib/jvm/java-7-oracle*"], [/* 18 vars */]) = 0
+2738  00:13:51 exit_group(2)            = ?
+2737  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2737  00:13:51 exit_group(2)            = ?
+2680  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2739
+2739  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2740
+2740  00:13:51 execve("/bin/ls", ["ls", "-rd", "\\"], [/* 18 vars */]) = 0
+2740  00:13:51 exit_group(2)            = ?
+2739  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2739  00:13:51 exit_group(2)            = ?
+2680  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2741
+2741  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2742
+2742  00:13:51 execve("/bin/ls", ["ls", "-rd", "/Library/Java/Home"], [/* 18 vars */]) = 0
+2742  00:13:51 exit_group(2)            = ?
+2741  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2741  00:13:51 exit_group(2)            = ?
+2680  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2743
+2743  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2744
+2744  00:13:51 execve("/bin/ls", ["ls", "-rd", "\\"], [/* 18 vars */]) = 0
+2744  00:13:51 exit_group(2)            = ?
+2743  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2743  00:13:51 exit_group(2)            = ?
+2680  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2759
+2759  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2760
+2760  00:13:51 execve("/bin/ls", ["ls", "-rd", "/usr/java/default"], [/* 18 vars */]) = 0
+2760  00:13:51 exit_group(2)            = ?
+2759  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2759  00:13:51 exit_group(2)            = ?
+2680  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2761
+2761  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2764
+2764  00:13:51 execve("/bin/ls", ["ls", "-rd", "\\"], [/* 18 vars */]) = 0
+2764  00:13:51 exit_group(2)            = ?
+2761  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2761  00:13:51 exit_group(2)            = ?
+2680  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2765
+2765  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2766
+2766  00:13:51 execve("/bin/ls", ["ls", "-rd", "/usr/lib/jvm/default-java"], [/* 18 vars */]) = 0
+2766  00:13:51 exit_group(0)            = ?
+2765  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2765  00:13:51 exit_group(0)            = ?
+2680  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2788
+2788  00:13:51 execve("/usr/bin/which", ["which", "hbase"], [/* 19 vars */]) = 0
+2788  00:13:51 exit_group(0)            = ?
+2680  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fd268edd9d0) = 2789
+2789  00:13:51 execve("/usr/bin/hbase", ["/usr/bin/hbase", "classpath"], [/* 19 vars */]) = 0
+2789  00:13:51 execve("/usr/lib/hbase/bin/hbase", ["/usr/lib/hbase/bin/hbase", "classpath"], [/* 27 vars */]) = 0
+2789  00:13:51 execve("/usr/local/sbin/bash", ["bash", "/usr/lib/hbase/bin/hbase", "classpath"], [/* 27 vars */]) = -1 ENOENT (No such file or directory)
+2789  00:13:51 execve("/usr/local/bin/bash", ["bash", "/usr/lib/hbase/bin/hbase", "classpath"], [/* 27 vars */]) = -1 ENOENT (No such file or directory)
+2789  00:13:51 execve("/usr/sbin/bash", ["bash", "/usr/lib/hbase/bin/hbase", "classpath"], [/* 27 vars */]) = -1 ENOENT (No such file or directory)
+2789  00:13:51 execve("/usr/bin/bash", ["bash", "/usr/lib/hbase/bin/hbase", "classpath"], [/* 27 vars */]) = -1 ENOENT (No such file or directory)
+2789  00:13:51 execve("/sbin/bash", ["bash", "/usr/lib/hbase/bin/hbase", "classpath"], [/* 27 vars */]) = -1 ENOENT (No such file or directory)
+2789  00:13:51 execve("/bin/bash", ["bash", "/usr/lib/hbase/bin/hbase", "classpath"], [/* 27 vars */]) = 0
+2789  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f63d42aa9d0) = 2790
+2790  00:13:51 execve("/usr/bin/dirname", ["dirname", "/usr/lib/hbase/bin/hbase"], [/* 27 vars */]) = 0
+2790  00:13:51 exit_group(0)            = ?
+2789  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2789  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f63d42aa9d0) = 2791
+2791  00:13:51 exit_group(0)            = ?
+2789  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2789  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f63d42aa9d0) = 2792
+2792  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f63d42aa9d0) = 2793
+2793  00:13:51 execve("/usr/bin/dirname", ["dirname", "/usr/lib/hbase/bin/hbase-config.sh"], [/* 27 vars */]) = 0
+2793  00:13:51 exit_group(0)            = ?
+2792  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2792  00:13:51 exit_group(0)            = ?
+2789  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2789  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f63d42aa9d0) = 2794
+2794  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f63d42aa9d0) = 2795
+2795  00:13:51 execve("/usr/bin/basename", ["basename", "/usr/lib/hbase/bin/hbase-config.sh"], [/* 27 vars */]) = 0
+2795  00:13:51 exit_group(0)            = ?
+2794  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2794  00:13:51 exit_group(0)            = ?
+2789  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2789  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f63d42aa9d0) = 2796
+2796  00:13:51 exit_group(0)            = ?
+2789  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2789  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f63d42aa9d0) = 2797
+2797  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f63d42aa9d0) = 2798
+2798  00:13:51 execve("/usr/bin/dirname", ["dirname", "/usr/lib/hbase/bin/hbase-config.sh"], [/* 27 vars */]) = 0
+2798  00:13:51 exit_group(0)            = ?
+2797  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2797  00:13:51 exit_group(0)            = ?
+2789  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2789  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f63d42aa9d0) = 2799
+2799  00:13:51 execve("/bin/uname", ["uname"], [/* 33 vars */]) = 0
+2799  00:13:51 exit_group(0)            = ?
+2789  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2789  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f63d42aa9d0) = 2800
+2800  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f63d42aa9d0) = 2801
+2801  00:13:51 execve("/usr/bin/which", ["which", "hadoop"], [/* 33 vars */]) = 0
+2801  00:13:51 exit_group(0)            = ?
+2800  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2800  00:13:51 exit_group(0)            = ?
+2789  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2789  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f63d42aa9d0) = 2802
+2802  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f63d42aa9d0) = 2803
+2803  00:13:51 execve("/usr/lib/hadoop/bin/hadoop", ["/usr/lib/hadoop/bin/hadoop", "org.apache.hadoop.hbase.util.GetJavaProperty", "java.library.path"], [/* 34 vars */]) = 0
+2803  00:13:51 execve("/usr/local/sbin/bash", ["bash", "/usr/lib/hadoop/bin/hadoop", "org.apache.hadoop.hbase.util.GetJavaProperty", "java.library.path"], [/* 34 vars */]) = -1 ENOENT (No such file or directory)
+2803  00:13:51 execve("/usr/local/bin/bash", ["bash", "/usr/lib/hadoop/bin/hadoop", "org.apache.hadoop.hbase.util.GetJavaProperty", "java.library.path"], [/* 34 vars */]) = -1 ENOENT (No such file or directory)
+2803  00:13:51 execve("/usr/sbin/bash", ["bash", "/usr/lib/hadoop/bin/hadoop", "org.apache.hadoop.hbase.util.GetJavaProperty", "java.library.path"], [/* 34 vars */]) = -1 ENOENT (No such file or directory)
+2803  00:13:51 execve("/usr/bin/bash", ["bash", "/usr/lib/hadoop/bin/hadoop", "org.apache.hadoop.hbase.util.GetJavaProperty", "java.library.path"], [/* 34 vars */]) = -1 ENOENT (No such file or directory)
+2803  00:13:51 execve("/sbin/bash", ["bash", "/usr/lib/hadoop/bin/hadoop", "org.apache.hadoop.hbase.util.GetJavaProperty", "java.library.path"], [/* 34 vars */]) = -1 ENOENT (No such file or directory)
+2803  00:13:51 execve("/bin/bash", ["bash", "/usr/lib/hadoop/bin/hadoop", "org.apache.hadoop.hbase.util.GetJavaProperty", "java.library.path"], [/* 34 vars */]) = 0
+2803  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fc9d90a29d0) = 2804
+2804  00:13:51 execve("/usr/bin/which", ["which", "/usr/lib/hadoop/bin/hadoop"], [/* 34 vars */]) = 0
+2804  00:13:51 exit_group(0)            = ?
+2803  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2803  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fc9d90a29d0) = 2805
+2805  00:13:51 execve("/usr/bin/dirname", ["dirname", "/usr/lib/hadoop/bin/hadoop"], [/* 34 vars */]) = 0
+2805  00:13:51 exit_group(0)            = ?
+2803  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2803  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fc9d90a29d0) = 2806
+2806  00:13:51 exit_group(0)            = ?
+2803  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2803  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fc9d90a29d0) = 2807
+2807  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fc9d90a29d0) = 2808
+2808  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fc9d90a29d0) = 2809
+2809  00:13:51 execve("/usr/bin/dirname", ["dirname", "--", "/usr/lib/hadoop/bin/../libexec/hadoop-config.sh"], [/* 34 vars */]) = 0
+2809  00:13:51 exit_group(0)            = ?
+2808  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2808  00:13:51 exit_group(0)            = ?
+2807  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2807  00:13:51 exit_group(0)            = ?
+2803  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2803  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fc9d90a29d0) = 2810
+2810  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fc9d90a29d0) = 2811
+2811  00:13:51 execve("/usr/bin/basename", ["basename", "--", "/usr/lib/hadoop/bin/../libexec/hadoop-config.sh"], [/* 34 vars */]) = 0
+2811  00:13:51 exit_group(0)            = ?
+2810  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2810  00:13:51 exit_group(0)            = ?
+2803  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2803  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fc9d90a29d0) = 2812
+2812  00:13:51 exit_group(0)            = ?
+2803  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2803  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fc9d90a29d0) = 2813
+2813  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fc9d90a29d0) = 2814
+2814  00:13:51 execve("/bin/uname", ["uname"], [/* 36 vars */]) = 0
+2814  00:13:51 exit_group(0)            = ?
+2813  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2813  00:13:51 exit_group(0)            = ?
+2803  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2803  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fc9d90a29d0) = 2815
+2815  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fc9d90a29d0) = 2816
+2816  00:13:51 execve("/sbin/sysctl", ["/sbin/sysctl", "-n", "net.ipv6.bindv6only"], [/* 36 vars */]) = 0
+2816  00:13:51 exit_group(0)            = ?
+2815  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2815  00:13:51 exit_group(0)            = ?
+2803  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2803  00:13:51 execve("/usr/lib/jvm/default-java/bin/java", ["/usr/lib/jvm/default-java/bin/java", "-Xmx1000m", "-Dhadoop.log.dir=/usr/lib/hadoop/logs", "-Dhadoop.log.file=hadoop.log", "-Dhadoop.home.dir=/usr/lib/hadoop", "-Dhadoop.id.str=", "-Dhadoop.root.logger=INFO,console", "-Djava.library.path=/usr/lib/hadoop/lib/native", "-Dhadoop.policy.file=hadoop-policy.xml", "-Djava.net.preferIPv4Stack=true", "-Dhadoop.security.logger=INFO,NullAppender", "org.apache.hadoop.hbase.util.GetJavaProperty", "java.library.path"], [/* 37 vars */]) = 0
+2803  00:13:51 execve("/usr/lib/jvm/java-6-openjdk-amd64/jre/bin/java", ["/usr/lib/jvm/default-java/bin/java", "-Xmx1000m", "-Dhadoop.log.dir=/usr/lib/hadoop/logs", "-Dhadoop.log.file=hadoop.log", "-Dhadoop.home.dir=/usr/lib/hadoop", "-Dhadoop.id.str=", "-Dhadoop.root.logger=INFO,console", "-Djava.library.path=/usr/lib/hadoop/lib/native", "-Dhadoop.policy.file=hadoop-policy.xml", "-Djava.net.preferIPv4Stack=true", "-Dhadoop.security.logger=INFO,NullAppender", "org.apache.hadoop.hbase.util.GetJavaProperty", "java.library.path"], [/* 37 vars */]) = 0
+2803  00:13:51 clone(child_stack=0x7f94da6c9ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f94da6ca9d0, tls=0x7f94da6ca700, child_tidptr=0x7f94da6ca9d0) = 2817
+2817  00:13:51 clone(child_stack=0x7f94d0770ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f94d07719d0, tls=0x7f94d0771700, child_tidptr=0x7f94d07719d0) = 2818
+2817  00:13:51 clone(child_stack=0x7f94d066fff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f94d06709d0, tls=0x7f94d0670700, child_tidptr=0x7f94d06709d0) = 2819
+2817  00:13:51 clone(child_stack=0x7f94d056eff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f94d056f9d0, tls=0x7f94d056f700, child_tidptr=0x7f94d056f9d0) = 2820
+2817  00:13:51 clone(child_stack=0x7f94d046dff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f94d046e9d0, tls=0x7f94d046e700, child_tidptr=0x7f94d046e9d0) = 2821
+2817  00:13:51 clone(child_stack=0x7f94c03bfff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f94c03c09d0, tls=0x7f94c03c0700, child_tidptr=0x7f94c03c09d0) = 2822
+2817  00:13:51 clone(child_stack=0x7f94c02beff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f94c02bf9d0, tls=0x7f94c02bf700, child_tidptr=0x7f94c02bf9d0) = 2823
+2817  00:13:51 clone(child_stack=0x7f94c01bdff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f94c01be9d0, tls=0x7f94c01be700, child_tidptr=0x7f94c01be9d0) = 2824
+2817  00:13:51 clone(child_stack=0x7f94af91bff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f94af91c9d0, tls=0x7f94af91c700, child_tidptr=0x7f94af91c9d0) = 2825
+2817  00:13:51 clone(child_stack=0x7f94af81aff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f94af81b9d0, tls=0x7f94af81b700, child_tidptr=0x7f94af81b9d0) = 2826
+2817  00:13:51 clone(child_stack=0x7f94af719ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f94af71a9d0, tls=0x7f94af71a700, child_tidptr=0x7f94af71a9d0) = 2827
+2817  00:13:51 clone(child_stack=0x7f94af618ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f94af6199d0, tls=0x7f94af619700, child_tidptr=0x7f94af6199d0) = 2828
+2817  00:13:51 clone(child_stack=0x7f94af517ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f94af5189d0, tls=0x7f94af518700, child_tidptr=0x7f94af5189d0) = 2829
+2803  00:13:51 exit_group(0)            = ?
+2802  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2802  00:13:51 exit_group(0)            = ?
+2789  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2789  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f63d42aa9d0) = 2830
+2830  00:13:51 exit_group(0)            = ?
+2789  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2789  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f63d42aa9d0) = 2831
+2831  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f63d42aa9d0) = 2832
+2832  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f63d42aa9d0) = 2833
+2833  00:13:51 execve("/usr/lib/hadoop/bin/hadoop", ["/usr/lib/hadoop/bin/hadoop", "classpath"], [/* 33 vars */]) = 0
+2833  00:13:51 execve("/usr/local/sbin/bash", ["bash", "/usr/lib/hadoop/bin/hadoop", "classpath"], [/* 33 vars */]) = -1 ENOENT (No such file or directory)
+2833  00:13:51 execve("/usr/local/bin/bash", ["bash", "/usr/lib/hadoop/bin/hadoop", "classpath"], [/* 33 vars */]) = -1 ENOENT (No such file or directory)
+2833  00:13:51 execve("/usr/sbin/bash", ["bash", "/usr/lib/hadoop/bin/hadoop", "classpath"], [/* 33 vars */]) = -1 ENOENT (No such file or directory)
+2833  00:13:51 execve("/usr/bin/bash", ["bash", "/usr/lib/hadoop/bin/hadoop", "classpath"], [/* 33 vars */]) = -1 ENOENT (No such file or directory)
+2833  00:13:51 execve("/sbin/bash", ["bash", "/usr/lib/hadoop/bin/hadoop", "classpath"], [/* 33 vars */]) = -1 ENOENT (No such file or directory)
+2833  00:13:51 execve("/bin/bash", ["bash", "/usr/lib/hadoop/bin/hadoop", "classpath"], [/* 33 vars */]) = 0
+2833  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f282f5d99d0) = 2834
+2834  00:13:51 execve("/usr/bin/which", ["which", "/usr/lib/hadoop/bin/hadoop"], [/* 33 vars */]) = 0
+2834  00:13:51 exit_group(0)            = ?
+2833  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2833  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f282f5d99d0) = 2835
+2835  00:13:51 execve("/usr/bin/dirname", ["dirname", "/usr/lib/hadoop/bin/hadoop"], [/* 33 vars */]) = 0
+2835  00:13:51 exit_group(0)            = ?
+2833  00:13:51 --- SIGCHLD (Child exited) @ 0 (0) ---
+2833  00:13:51 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f282f5d99d0) = 2836
+2836  00:13:52 exit_group(0)            = ?
+2833  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2833  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f282f5d99d0) = 2837
+2837  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f282f5d99d0) = 2838
+2838  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f282f5d99d0) = 2839
+2839  00:13:52 execve("/usr/bin/dirname", ["dirname", "--", "/usr/lib/hadoop/bin/../libexec/hadoop-config.sh"], [/* 33 vars */]) = 0
+2839  00:13:52 exit_group(0)            = ?
+2838  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2838  00:13:52 exit_group(0)            = ?
+2837  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2837  00:13:52 exit_group(0)            = ?
+2833  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2833  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f282f5d99d0) = 2840
+2840  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f282f5d99d0) = 2841
+2841  00:13:52 execve("/usr/bin/basename", ["basename", "--", "/usr/lib/hadoop/bin/../libexec/hadoop-config.sh"], [/* 33 vars */]) = 0
+2841  00:13:52 exit_group(0)            = ?
+2840  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2840  00:13:52 exit_group(0)            = ?
+2833  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2833  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f282f5d99d0) = 2860
+2860  00:13:52 exit_group(0)            = ?
+2833  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2833  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f282f5d99d0) = 2861
+2861  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f282f5d99d0) = 2862
+2862  00:13:52 execve("/bin/uname", ["uname"], [/* 35 vars */]) = 0
+2862  00:13:52 exit_group(0)            = ?
+2861  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2861  00:13:52 exit_group(0)            = ?
+2833  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2833  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f282f5d99d0) = 2863
+2863  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f282f5d99d0) = 2864
+2864  00:13:52 execve("/sbin/sysctl", ["/sbin/sysctl", "-n", "net.ipv6.bindv6only"], [/* 35 vars */]) = 0
+2864  00:13:52 exit_group(0)            = ?
+2863  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2863  00:13:52 exit_group(0)            = ?
+2833  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2833  00:13:52 exit_group(0)            = ?
+2832  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2832  00:13:52 exit_group(0)            = ?
+2831  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2831  00:13:52 exit_group(0)            = ?
+2789  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2789  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f63d42aa9d0) = 2865
+2865  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f63d42aa9d0) = 2866
+2865  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f63d42aa9d0) = 2867
+2866  00:13:52 execve("/usr/lib/jvm/default-java/bin/java", ["/usr/lib/jvm/default-java/bin/java", "org.apache.hadoop.util.PlatformName"], [/* 34 vars */]) = 0
+2867  00:13:52 execve("/bin/sed", ["sed", "-e", "s/ /_/g"], [/* 33 vars */]) = 0
+2866  00:13:52 execve("/usr/lib/jvm/java-6-openjdk-amd64/jre/bin/java", ["/usr/lib/jvm/default-java/bin/java", "org.apache.hadoop.util.PlatformName"], [/* 35 vars */]) = 0
+2866  00:13:52 clone(child_stack=0x7f80d0c9eff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f80d0c9f9d0, tls=0x7f80d0c9f700, child_tidptr=0x7f80d0c9f9d0) = 2868
+2868  00:13:52 clone(child_stack=0x7f80cdd68ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f80cdd699d0, tls=0x7f80cdd69700, child_tidptr=0x7f80cdd699d0) = 2869
+2868  00:13:52 clone(child_stack=0x7f80cdc67ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f80cdc689d0, tls=0x7f80cdc68700, child_tidptr=0x7f80cdc689d0) = 2870
+2868  00:13:52 clone(child_stack=0x7f80cdb66ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f80cdb679d0, tls=0x7f80cdb67700, child_tidptr=0x7f80cdb679d0) = 2871
+2868  00:13:52 clone(child_stack=0x7f80cda65ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f80cda669d0, tls=0x7f80cda66700, child_tidptr=0x7f80cda669d0) = 2872
+2868  00:13:52 clone(child_stack=0x7f80c4efdff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f80c4efe9d0, tls=0x7f80c4efe700, child_tidptr=0x7f80c4efe9d0) = 2873
+2868  00:13:52 clone(child_stack=0x7f80c4dfcff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f80c4dfd9d0, tls=0x7f80c4dfd700, child_tidptr=0x7f80c4dfd9d0) = 2874
+2868  00:13:52 clone(child_stack=0x7f80c4cfbff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f80c4cfc9d0, tls=0x7f80c4cfc700, child_tidptr=0x7f80c4cfc9d0) = 2875
+2868  00:13:52 clone(child_stack=0x7f80c4517ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f80c45189d0, tls=0x7f80c4518700, child_tidptr=0x7f80c45189d0) = 2883
+2868  00:13:52 clone(child_stack=0x7f80c4416ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f80c44179d0, tls=0x7f80c4417700, child_tidptr=0x7f80c44179d0) = 2884
+2868  00:13:52 clone(child_stack=0x7f80c4315ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f80c43169d0, tls=0x7f80c4316700, child_tidptr=0x7f80c43169d0) = 2885
+2868  00:13:52 clone(child_stack=0x7f80c4214ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f80c42159d0, tls=0x7f80c4215700, child_tidptr=0x7f80c42159d0) = 2886
+2868  00:13:52 clone(child_stack=0x7f80c4113ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f80c41149d0, tls=0x7f80c4114700, child_tidptr=0x7f80c41149d0) = 2887
+2866  00:13:52 exit_group(0)            = ?
+2867  00:13:52 exit_group(0)            = ?
+2865  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2865  00:13:52 exit_group(0)            = ?
+2789  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2789  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f63d42aa9d0) = 2890
+2890  00:13:52 exit_group(0)            = ?
+2789  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2789  00:13:52 exit_group(0)            = ?
+2680  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:52 execve("/usr/lib/pig/bin/pig", ["/usr/lib/pig/bin/pig", "-m", "hadoop.properties", "-param", "DIRNAME=pig_op_test", "TestPig.pig"], [/* 19 vars */]) = 0
+2680  00:13:52 execve("/usr/local/sbin/bash", ["bash", "/usr/lib/pig/bin/pig", "-m", "hadoop.properties", "-param", "DIRNAME=pig_op_test", "TestPig.pig"], [/* 19 vars */]) = -1 ENOENT (No such file or directory)
+2680  00:13:52 execve("/usr/local/bin/bash", ["bash", "/usr/lib/pig/bin/pig", "-m", "hadoop.properties", "-param", "DIRNAME=pig_op_test", "TestPig.pig"], [/* 19 vars */]) = -1 ENOENT (No such file or directory)
+2680  00:13:52 execve("/usr/sbin/bash", ["bash", "/usr/lib/pig/bin/pig", "-m", "hadoop.properties", "-param", "DIRNAME=pig_op_test", "TestPig.pig"], [/* 19 vars */]) = -1 ENOENT (No such file or directory)
+2680  00:13:52 execve("/usr/bin/bash", ["bash", "/usr/lib/pig/bin/pig", "-m", "hadoop.properties", "-param", "DIRNAME=pig_op_test", "TestPig.pig"], [/* 19 vars */]) = -1 ENOENT (No such file or directory)
+2680  00:13:52 execve("/sbin/bash", ["bash", "/usr/lib/pig/bin/pig", "-m", "hadoop.properties", "-param", "DIRNAME=pig_op_test", "TestPig.pig"], [/* 19 vars */]) = -1 ENOENT (No such file or directory)
+2680  00:13:52 execve("/bin/bash", ["bash", "/usr/lib/pig/bin/pig", "-m", "hadoop.properties", "-param", "DIRNAME=pig_op_test", "TestPig.pig"], [/* 19 vars */]) = 0
+2680  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff6c726c9d0) = 2891
+2891  00:13:52 execve("/bin/uname", ["uname"], [/* 20 vars */]) = 0
+2891  00:13:52 exit_group(0)            = ?
+2680  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff6c726c9d0) = 2892
+2892  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff6c726c9d0) = 2893
+2893  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff6c726c9d0) = 2894
+2894  00:13:52 execve("/usr/bin/dirname", ["dirname", "--", "/usr/lib/pig/bin/pig"], [/* 20 vars */]) = 0
+2894  00:13:52 exit_group(0)            = ?
+2893  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2893  00:13:52 exit_group(0)            = ?
+2892  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2892  00:13:52 exit_group(0)            = ?
+2680  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff6c726c9d0) = 2895
+2895  00:13:52 execve("/usr/bin/basename", ["basename", "--", "/usr/lib/pig/bin/pig"], [/* 20 vars */]) = 0
+2895  00:13:52 exit_group(0)            = ?
+2680  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff6c726c9d0) = 2896
+2896  00:13:52 execve("/usr/bin/dirname", ["dirname", "/usr/lib/pig/bin/pig"], [/* 20 vars */]) = 0
+2896  00:13:52 exit_group(0)            = ?
+2680  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff6c726c9d0) = 2897
+2897  00:13:52 exit_group(0)            = ?
+2680  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff6c726c9d0) = 2898
+2898  00:13:52 exit_group(0)            = ?
+2680  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff6c726c9d0) = 2899
+2899  00:13:52 exit_group(0)            = ?
+2680  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff6c726c9d0) = 2900
+2900  00:13:52 execve("/usr/bin/which", ["which", "hadoop"], [/* 21 vars */]) = 0
+2900  00:13:52 exit_group(0)            = ?
+2680  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff6c726c9d0) = 2901
+2901  00:13:52 execve("/usr/bin/which", ["which", "hadoop"], [/* 21 vars */]) = 0
+2901  00:13:52 exit_group(0)            = ?
+2680  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff6c726c9d0) = 2902
+2902  00:13:52 exit_group(0)            = ?
+2680  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:52 execve("/usr/bin/hadoop", ["/usr/bin/hadoop", "jar", "/usr/lib/pig/bin/../pig-0.11.0-cdh4.7.0-withouthadoop.jar", "-m", "hadoop.properties", "-param", "DIRNAME=pig_op_test", "TestPig.pig"], [/* 22 vars */]) = 0
+2680  00:13:52 execve("/usr/lib/hadoop/bin/hadoop", ["/usr/lib/hadoop/bin/hadoop", "jar", "/usr/lib/pig/bin/../pig-0.11.0-cdh4.7.0-withouthadoop.jar", "-m", "hadoop.properties", "-param", "DIRNAME=pig_op_test", "TestPig.pig"], [/* 23 vars */]) = 0
+2680  00:13:52 execve("/usr/local/sbin/bash", ["bash", "/usr/lib/hadoop/bin/hadoop", "jar", "/usr/lib/pig/bin/../pig-0.11.0-cdh4.7.0-withouthadoop.jar", "-m", "hadoop.properties", "-param", "DIRNAME=pig_op_test", "TestPig.pig"], [/* 23 vars */]) = -1 ENOENT (No such file or directory)
+2680  00:13:52 execve("/usr/local/bin/bash", ["bash", "/usr/lib/hadoop/bin/hadoop", "jar", "/usr/lib/pig/bin/../pig-0.11.0-cdh4.7.0-withouthadoop.jar", "-m", "hadoop.properties", "-param", "DIRNAME=pig_op_test", "TestPig.pig"], [/* 23 vars */]) = -1 ENOENT (No such file or directory)
+2680  00:13:52 execve("/usr/sbin/bash", ["bash", "/usr/lib/hadoop/bin/hadoop", "jar", "/usr/lib/pig/bin/../pig-0.11.0-cdh4.7.0-withouthadoop.jar", "-m", "hadoop.properties", "-param", "DIRNAME=pig_op_test", "TestPig.pig"], [/* 23 vars */]) = -1 ENOENT (No such file or directory)
+2680  00:13:52 execve("/usr/bin/bash", ["bash", "/usr/lib/hadoop/bin/hadoop", "jar", "/usr/lib/pig/bin/../pig-0.11.0-cdh4.7.0-withouthadoop.jar", "-m", "hadoop.properties", "-param", "DIRNAME=pig_op_test", "TestPig.pig"], [/* 23 vars */]) = -1 ENOENT (No such file or directory)
+2680  00:13:52 execve("/sbin/bash", ["bash", "/usr/lib/hadoop/bin/hadoop", "jar", "/usr/lib/pig/bin/../pig-0.11.0-cdh4.7.0-withouthadoop.jar", "-m", "hadoop.properties", "-param", "DIRNAME=pig_op_test", "TestPig.pig"], [/* 23 vars */]) = -1 ENOENT (No such file or directory)
+2680  00:13:52 execve("/bin/bash", ["bash", "/usr/lib/hadoop/bin/hadoop", "jar", "/usr/lib/pig/bin/../pig-0.11.0-cdh4.7.0-withouthadoop.jar", "-m", "hadoop.properties", "-param", "DIRNAME=pig_op_test", "TestPig.pig"], [/* 23 vars */]) = 0
+2680  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f7f82c229d0) = 2903
+2903  00:13:52 execve("/usr/bin/which", ["which", "/usr/lib/hadoop/bin/hadoop"], [/* 24 vars */]) = 0
+2903  00:13:52 exit_group(0)            = ?
+2680  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f7f82c229d0) = 2904
+2904  00:13:52 execve("/usr/bin/dirname", ["dirname", "/usr/lib/hadoop/bin/hadoop"], [/* 24 vars */]) = 0
+2904  00:13:52 exit_group(0)            = ?
+2680  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f7f82c229d0) = 2905
+2905  00:13:52 exit_group(0)            = ?
+2680  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f7f82c229d0) = 2906
+2906  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f7f82c229d0) = 2907
+2907  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f7f82c229d0) = 2908
+2908  00:13:52 execve("/usr/bin/dirname", ["dirname", "--", "/usr/lib/hadoop/libexec//hadoop-config.sh"], [/* 24 vars */]) = 0
+2908  00:13:52 exit_group(0)            = ?
+2907  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2907  00:13:52 exit_group(0)            = ?
+2906  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2906  00:13:52 exit_group(0)            = ?
+2680  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f7f82c229d0) = 2909
+2909  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f7f82c229d0) = 2910
+2910  00:13:52 execve("/usr/bin/basename", ["basename", "--", "/usr/lib/hadoop/libexec//hadoop-config.sh"], [/* 24 vars */]) = 0
+2910  00:13:52 exit_group(0)            = ?
+2909  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2909  00:13:52 exit_group(0)            = ?
+2680  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f7f82c229d0) = 2911
+2911  00:13:52 exit_group(0)            = ?
+2680  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f7f82c229d0) = 2912
+2912  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f7f82c229d0) = 2913
+2913  00:13:52 execve("/bin/uname", ["uname"], [/* 26 vars */]) = 0
+2913  00:13:52 exit_group(0)            = ?
+2912  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2912  00:13:52 exit_group(0)            = ?
+2680  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f7f82c229d0) = 2914
+2914  00:13:52 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f7f82c229d0) = 2915
+2915  00:13:52 execve("/sbin/sysctl", ["/sbin/sysctl", "-n", "net.ipv6.bindv6only"], [/* 26 vars */]) = 0
+2915  00:13:52 exit_group(0)            = ?
+2914  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2914  00:13:52 exit_group(0)            = ?
+2680  00:13:52 --- SIGCHLD (Child exited) @ 0 (0) ---
+2680  00:13:52 execve("/usr/lib/jvm/default-java/bin/java", ["/usr/lib/jvm/default-java/bin/java", "-Xmx1000m", "-Xmx1000m", "-Dpig.log.dir=/usr/lib/pig/bin/../logs", "-Dpig.log.file=pig.log", "-Dpig.home.dir=/usr/lib/pig/bin/..", "-Dhadoop.log.dir=/usr/lib/hadoop/logs", "-Dhadoop.log.file=hadoop.log", "-Dhadoop.home.dir=/usr/lib/hadoop", "-Dhadoop.id.str=", "-Dhadoop.root.logger=INFO,console", "-Djava.library.path=/usr/lib/hadoop/lib/native", "-Dhadoop.policy.file=hadoop-policy.xml", "-Djava.net.preferIPv4Stack=true", "-Dhadoop.security.logger=INFO,NullAppender", "org.apache.hadoop.util.RunJar", "/usr/lib/pig/bin/../pig-0.11.0-cdh4.7.0-withouthadoop.jar", "-m", "hadoop.properties", "-param", "DIRNAME=pig_op_test", "TestPig.pig"], [/* 28 vars */]) = 0
+2680  00:13:52 execve("/usr/lib/jvm/java-6-openjdk-amd64/jre/bin/java", ["/usr/lib/jvm/default-java/bin/java", "-Xmx1000m", "-Xmx1000m", "-Dpig.log.dir=/usr/lib/pig/bin/../logs", "-Dpig.log.file=pig.log", "-Dpig.home.dir=/usr/lib/pig/bin/..", "-Dhadoop.log.dir=/usr/lib/hadoop/logs", "-Dhadoop.log.file=hadoop.log", "-Dhadoop.home.dir=/usr/lib/hadoop", "-Dhadoop.id.str=", "-Dhadoop.root.logger=INFO,console", "-Djava.library.path=/usr/lib/hadoop/lib/native", "-Dhadoop.policy.file=hadoop-policy.xml", "-Djava.net.preferIPv4Stack=true", "-Dhadoop.security.logger=INFO,NullAppender", "org.apache.hadoop.util.RunJar", "/usr/lib/pig/bin/../pig-0.11.0-cdh4.7.0-withouthadoop.jar", "-m", "hadoop.properties", "-param", "DIRNAME=pig_op_test", "TestPig.pig"], [/* 28 vars */]) = 0
+2680  00:13:52 clone(child_stack=0x7ff2f3d95ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7ff2f3d969d0, tls=0x7ff2f3d96700, child_tidptr=0x7ff2f3d969d0) = 2916
+2916  00:13:52 clone(child_stack=0x7ff2f0e3dff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7ff2f0e3e9d0, tls=0x7ff2f0e3e700, child_tidptr=0x7ff2f0e3e9d0) = 2917
+2916  00:13:52 clone(child_stack=0x7ff2f0d3cff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7ff2f0d3d9d0, tls=0x7ff2f0d3d700, child_tidptr=0x7ff2f0d3d9d0) = 2918
+2916  00:13:52 clone(child_stack=0x7ff2f0c3bff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7ff2f0c3c9d0, tls=0x7ff2f0c3c700, child_tidptr=0x7ff2f0c3c9d0) = 2919
+2916  00:13:52 clone(child_stack=0x7ff2f0b3aff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7ff2f0b3b9d0, tls=0x7ff2f0b3b700, child_tidptr=0x7ff2f0b3b9d0) = 2920
+2916  00:13:52 clone(child_stack=0x7ff2e88b5ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7ff2e88b69d0, tls=0x7ff2e88b6700, child_tidptr=0x7ff2e88b69d0) = 2921
+2916  00:13:52 clone(child_stack=0x7ff2e87b4ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7ff2e87b59d0, tls=0x7ff2e87b5700, child_tidptr=0x7ff2e87b59d0) = 2922
+2916  00:13:52 clone(child_stack=0x7ff2e86b3ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7ff2e86b49d0, tls=0x7ff2e86b4700, child_tidptr=0x7ff2e86b49d0) = 2923
+2916  00:13:52 clone(child_stack=0x7ff2e85b2ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7ff2e85b39d0, tls=0x7ff2e85b3700, child_tidptr=0x7ff2e85b39d0) = 2924
+2916  00:13:52 clone(child_stack=0x7ff2e84b1ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7ff2e84b29d0, tls=0x7ff2e84b2700, child_tidptr=0x7ff2e84b29d0) = 2925
+2916  00:13:52 clone(child_stack=0x7ff2e83b0ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7ff2e83b19d0, tls=0x7ff2e83b1700, child_tidptr=0x7ff2e83b19d0) = 2926
+2916  00:13:52 clone(child_stack=0x7ff2e82afff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7ff2e82b09d0, tls=0x7ff2e82b0700, child_tidptr=0x7ff2e82b09d0) = 2927
+2916  00:13:52 clone(child_stack=0x7ff2e81aeff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7ff2e81af9d0, tls=0x7ff2e81af700, child_tidptr=0x7ff2e81af9d0) = 2928
+2916  00:13:53 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+2916  00:13:56 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+2916  00:13:57 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+2916  00:13:57 clone(child_stack=0x7ff2d9bbaff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7ff2d9bbb9d0, tls=0x7ff2d9bbb700, child_tidptr=0x7ff2d9bbb9d0) = 2947
+2947  00:13:57 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+2916  00:13:57 clone(child_stack=0x7ff2d9ab9ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7ff2d9aba9d0, tls=0x7ff2d9aba700, child_tidptr=0x7ff2d9aba9d0) = 2948
+2916  00:13:57 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+2916  00:13:57 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+2916  00:13:57 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+2916  00:13:58 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+2916  00:13:58 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+2916  00:13:58 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+2916  00:14:03 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+2916  00:14:03 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+2916  00:14:04 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+2916  00:14:07 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+2916  00:14:07 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+2916  00:14:10 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+2916  00:14:11 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+2916  00:14:16 clone(child_stack=0x7ff2d9bbaff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7ff2d9bbb9d0, tls=0x7ff2d9bbb700, child_tidptr=0x7ff2d9bbb9d0) = 3298
+3298  00:14:16 clone(child_stack=0x7ff2d99b8ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7ff2d99b99d0, tls=0x7ff2d99b9700, child_tidptr=0x7ff2d99b99d0) = 3299
+3298  00:14:16 clone(child_stack=0x7ff2d98b7ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7ff2d98b89d0, tls=0x7ff2d98b8700, child_tidptr=0x7ff2d98b89d0) = 3300
+3300  00:14:16 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+3300  00:14:16 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+3300  00:14:16 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+3298  00:14:16 clone(child_stack=0x7ff2d97b6ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7ff2d97b79d0, tls=0x7ff2d97b7700, child_tidptr=0x7ff2d97b79d0) = 3301
+3298  00:14:16 clone(child_stack=0x7ff2d96b5ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7ff2d96b69d0, tls=0x7ff2d96b6700, child_tidptr=0x7ff2d96b69d0) = 3302
+3301  00:14:16 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+3301  00:14:16 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+3298  00:14:16 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+3301  00:14:16 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+3298  00:14:16 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+2926  00:14:16 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+3301  00:14:16 clone(child_stack=0x7ff2d95b4ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7ff2d95b59d0, tls=0x7ff2d95b5700, child_tidptr=0x7ff2d95b59d0) = 3311
+3301  00:14:16 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+3301  00:14:16 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+3298  00:14:17 clone(child_stack=0x7ff2d97b6ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7ff2d97b79d0, tls=0x7ff2d97b7700, child_tidptr=0x7ff2d97b79d0) = 3312
+3312  00:14:17 clone(child_stack=0x7ff2d95b4ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7ff2d95b59d0, tls=0x7ff2d95b5700, child_tidptr=0x7ff2d95b59d0) = 3315
+3312  00:14:17 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+3298  00:14:17 clone(child_stack=0x7ff2d95b4ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7ff2d95b59d0, tls=0x7ff2d95b5700, child_tidptr=0x7ff2d95b59d0) = 3321
+3321  00:14:17 clone(child_stack=0x7ff2d97b6ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7ff2d97b79d0, tls=0x7ff2d97b7700, child_tidptr=0x7ff2d97b79d0) = 3324
+3298  00:14:17 clone(child_stack=0x7ff2d97b6ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7ff2d97b79d0, tls=0x7ff2d97b7700, child_tidptr=0x7ff2d97b79d0) = 3325
+3298  00:14:17 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+3325  00:14:17 clone(child_stack=0x7ff2d95b4ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7ff2d95b59d0, tls=0x7ff2d95b5700, child_tidptr=0x7ff2d95b59d0) = 3328
+3298  00:14:17 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+2916  00:14:32 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+2916  00:14:47 clone(child_stack=0x7ff2d98b7ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7ff2d98b89d0, tls=0x7ff2d98b8700, child_tidptr=0x7ff2d98b89d0) = 4262
+2916  00:14:47 clone(child_stack=0x7ff2d97b6ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7ff2d97b79d0, tls=0x7ff2d97b7700, child_tidptr=0x7ff2d97b79d0) = 4263
+2916  00:14:47 clone(child_stack=0x7ff2d95b4ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7ff2d95b59d0, tls=0x7ff2d95b5700, child_tidptr=0x7ff2d95b59d0) = 4264
+2916  00:14:47 clone(child_stack=0x7ff2d94b3ff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7ff2d94b49d0, tls=0x7ff2d94b4700, child_tidptr=0x7ff2d94b49d0) = 4265
+4264  00:14:47 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+2921  00:14:48 exit_group(2)            = ?
+2679  00:14:48 --- SIGCHLD (Child exited) @ 0 (0) ---
+2679  00:14:48 exit_group(0)            = ?
